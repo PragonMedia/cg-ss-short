@@ -458,6 +458,8 @@ async function updatePhoneNumberReactive() {
     );
     setPhoneButtonLoading(false);
   }
+}
+
 function startCountdown() {
   var timeLeft = 30;
   var countdownElement = document.getElementById("countdown");
